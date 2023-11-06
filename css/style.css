@@ -99,3 +99,62 @@ footer {
     bottom: 0;
     background-color: transparent;
 }
+
+.slider{
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 60%;
+    overflow: hidden;
+}
+
+.afbeeldingen{
+    display: flex;
+    width: 100%;
+}
+
+.afbeeldingen img{
+    width: 100%;
+    transition: all 0.15s ease;
+}
+
+.afbeeldingen input{
+    display: none;
+}
+
+.dots{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+
+.dots label{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: solid #2F403E 4px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    margin: 5px;
+}
+
+.dots label:hover{
+    background: #2F403E;
+    
+}
+
+#afb1:checked ~ .img1{
+    margin-left: 0;
+}
+
+#afb2:checked ~ .img2{
+    margin-left: -100%;
+}
+
+#afb3:checked ~ .img3{
+    margin-left: -200%;
+}
+
+#afb4:checked ~ .img4{
+    margin-left: -300%;
+}
