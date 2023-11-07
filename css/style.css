@@ -1,13 +1,17 @@
 body{
-    background-color: #f2f0e4;
     margin: 0;
     padding: 0;
     font-family: blambot;
+    background-image: url(fonts/backgroundleafs-01-01.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 article{
     margin: 1em 1em 7.5em 1em;
     border: 3px solid #498c60 ;
+    background-color: #f2f0e4;
     border-radius: 1em;
     padding: 0.5em;
 }
@@ -111,6 +115,14 @@ footer {
     position: fixed;
     bottom: 0;
     background-color: transparent;
+}
+
+footer a{
+    transition: transform 0.3s;
+}
+
+footer a:hover {
+    transform: scale(0.8); 
 }
 
 .slider{
