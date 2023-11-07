@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: blambot;
+    font-size: 0.95em;
     background-image: url(fonts/backgroundleafs-01-01.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -96,7 +97,7 @@ h1{
 
 h2{
     font-family: tariflight;
-    font-size: 1.5em;
+    font-size: 1.4em;
 }
 
 @keyframes bounce {
