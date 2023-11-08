@@ -143,16 +143,15 @@ footer {
 .dots{
     display: flex;
     justify-content: center;
-    margin: 5px;
+    margin: 3px;
 }
 
 .dots label{
-    height: 20px;
-    width: 20px;
+    height: 18px;
+    width: 18px;
     border-radius: 50%;
     border: solid #2F403E 4px;
     cursor: pointer;
-    transition: all 0.15s ease;
     margin: 5px;
 }
 
