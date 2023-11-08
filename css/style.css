@@ -1,11 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+@font-face {
+    font-family: blambot;
+    src: url(fonts/blambotproregular.ttf);
+}
+
 body{
     margin: 0;
     padding: 0;
     font-family: blambot;
     font-size: 0.95em;
-    background-image: url(fonts/backgroundleafs-01-01.jpg);
+    background-image: url(fonts/backgroundleafs2-01.jpg);
     background-size: 100% 100%;
-    background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
@@ -15,11 +23,11 @@ article{
     background-color: #f2f0e4;
     border-radius: 1em;
     padding: 0.5em;
+    box-shadow: black 0 0 5px;
 }
 
 p{
     font-size: 0.8em;
-
 }
 
 @font-face {
@@ -32,11 +40,6 @@ p{
     src: url(fonts/tariflight.ttf);
 }
 
-@font-face {
-    font-family: blambot;
-    src: url(fonts/blambotproregular.ttf);
-}
-
 nav {
     padding: 1em;
     margin: 1em 3em;
@@ -45,6 +48,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: black 0 0 3px;
 }
 
 nav ul {
@@ -81,6 +85,7 @@ nav li img {
     padding: 0.4em;
     align-items: center;
     justify-content: space-around;
+    box-shadow: black 0 0 5px;
 }
 
 .headerbalk img {
@@ -89,15 +94,15 @@ nav li img {
 
 h1{
     color: #f2f0e4;
-    font-size: 1.8em;
-    font-family: tariflight;
-    letter-spacing: 0.05em;
+    font-size: 1.5em;
+    font-family: Luckiest Guy;
+    letter-spacing: 0.1em;
     animation: bounce 0.8s;
 }
 
 h2{
-    font-family: tariflight;
-    font-size: 1.4em;
+    font-family: Permanent Marker;
+    font-size: 1.2em;
 }
 
 @keyframes bounce {
@@ -142,6 +147,7 @@ footer a:hover {
 .afbeeldingen img{
     width: 100%;
     transition: all 0.15s ease;
+    border-radius: 1em;
 }
 
 .afbeeldingen input{
@@ -183,4 +189,23 @@ footer a:hover {
 
 #afb4:checked ~ .img4{
     margin-left: -300%;
+}
+
+.vergroothome{
+    transform: scale(1.3);
+}
+
+.vergrootontstaan{
+    transform: scale(1.3);
+}
+
+.vergrootervaring{
+    transform: scale(1.3);
+}
+
+article img{
+    display: block;
+    margin: 1em auto;
+    border-radius: 1em;
+    width: 200px;
 }
