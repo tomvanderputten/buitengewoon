@@ -1,10 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:wght@500&display=swap');
 
 @font-face {
     font-family: blambot;
     src: url(fonts/blambotproregular.ttf);
+}
+
+@font-face {
+    font-family: tariflight;
+    src: url(fonts/tariflight.ttf);
 }
 
 body{
@@ -28,16 +31,6 @@ article{
 
 p{
     font-size: 0.8em;
-}
-
-@font-face {
-    font-family: tarifmedium;
-    src: url(fonts/tarifmedium.ttf);
-}
-
-@font-face {
-    font-family: tariflight;
-    src: url(fonts/tariflight.ttf);
 }
 
 nav {
@@ -94,15 +87,15 @@ nav li img {
 
 h1{
     color: #f2f0e4;
-    font-size: 1.5em;
-    font-family: Luckiest Guy;
+    font-size: 1.7em;
+    font-family: tariflight;
     letter-spacing: 0.1em;
     animation: bounce 0.8s;
 }
 
 h2{
-    font-family: Permanent Marker;
-    font-size: 1.2em;
+    font-family: Grandstander;
+    font-size: 1.3em;
 }
 
 @keyframes bounce {
