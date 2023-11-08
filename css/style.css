@@ -16,7 +16,7 @@ body{
     font-family: blambot;
     font-size: 0.95em;
     background-image: url(fonts/backgroundleafs2-01.jpg);
-    background-size: 100% 100%;
+    background-size: cover;
     background-attachment: fixed;
 }
 
